@@ -1,0 +1,58 @@
+# core / live basics
+linux
+linux-firmware
+bash
+sudo
+coreutils
+dialog
+man-db
+
+# network
+networkmanager
+
+# user-friendly installer
+# (Calamares is usually from AUR; see step 5 to add it)
+# calamares
+
+# GUI components minimal for Hyprland
+wayland
+xdg-desktop-portal
+xdg-desktop-portal-hyprland
+hyprland
+hyprland-qtutils
+hyprpaper        # optional wallpaper helper
+mako             # notification daemon
+swaylock         # to lock the screen (works on wayland)
+wl-clipboard     # clipboard support for wayland
+waybar           # status bar (optional, pretty)
+rofi             # launcher
+
+# KDE terminal and libraries (Konsole)
+konsole
+
+# shell
+zsh
+
+# login manager
+sddm
+
+# utilities (lightweight)
+ntfs-3g
+openssh
+gvfs
+polkit
+
+# compression / building tools inside live image (small)
+gzip
+tar
+xz
+
+# fonts & icons (for a pretty default look)
+noto-fonts
+ttf-dejavu
+adwaita-icon-theme
+
+# optional tools (recommended)
+nano
+sudo
+
