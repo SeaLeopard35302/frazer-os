@@ -6,53 +6,73 @@ sudo
 coreutils
 dialog
 man-db
+base
+
+# Add these missing essentials
+systemd
+udev
+kbd
 
 # network
 networkmanager
 
-# user-friendly installer
-# (Calamares is usually from AUR; see step 5 to add it)
-# calamares
-
-# GUI components minimal for Hyprland
+# GUI components for Hyprland
 wayland
 xdg-desktop-portal
 xdg-desktop-portal-hyprland
 hyprland
-hyprland-qtutils
-hyprpaper        # optional wallpaper helper
-mako             # notification daemon
-swaylock         # to lock the screen (works on wayland)
-wl-clipboard     # clipboard support for wayland
-waybar           # status bar (optional, pretty)
-rofi             # launcher
+hyprpaper
+mako
+swaylock
+wl-clipboard
+waybar
+rofi-wayland
 
-# KDE terminal and libraries (Konsole)
+# terminal and shell
 konsole
-
-# shell
 zsh
 
 # login manager
 sddm
 
-# utilities (lightweight)
+# utilities
 ntfs-3g
 openssh
 gvfs
 polkit
+nano
 
-# compression / building tools inside live image (small)
+# compression/building tools
 gzip
 tar
 xz
 
-# fonts & icons (for a pretty default look)
+# fonts & icons
 noto-fonts
 ttf-dejavu
-adwaita-icon-theme
 
-# optional tools (recommended)
-nano
-sudo
+# bootloaders
+syslinux
+memtest86+
 
+# archiso specific packages (required!)
+archiso
+mkinitcpio
+mkinitcpio-archiso
+
+# SPDX licenses (fixes the license file error)
+licenses
+
+# installer (Arch official)
+archinstall
+
+# archiso specific packages (required!)
+archiso
+mkinitcpio
+mkinitcpio-archiso
+archlinux-keyring
+
+
+# filesystem tools
+dosfstools
+e2fsprogs
